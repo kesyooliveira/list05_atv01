@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Informe um número: ");
+        System.out.print("Informe um número inteiro: ");
         int n=sc.nextInt();
         sc.close();
         imprimieLinha(n);
